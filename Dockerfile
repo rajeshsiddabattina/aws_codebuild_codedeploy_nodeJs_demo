@@ -1,4 +1,4 @@
-FROM node:14
+FROM 538648446500.dkr.ecr.us-west-2.amazonaws.com/aws-images-ecr-repo/node14
 
 # Setting working directory. All the path will be relative to WORKDIR
 WORKDIR /usr/src/app
